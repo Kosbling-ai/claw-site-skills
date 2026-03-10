@@ -94,24 +94,12 @@ Record at least:
 - good / bad / abnormal event flags
 - short note
 
-## 8. Audio / ASR boundary
+## 8. Current open questions
 
-Current observations confirm that the Seller Center `Live Dashboard` has a **right-side video player**, and the observed state was **muted by default**.
-
-However:
-- the presence of a player does **not** yet prove reliable audio capture availability
-- treat Seller Center audio capture as **unconfirmed** until a live-session check explicitly proves audio can be used
-
-If future work needs recording + speech recognition, still plan a separate TikTok consumer-side capture path as the default assumption.
-For now, use visible comments and metric changes as the available event signals.
-
-## 9. Current open questions
-
-- A right-side player exists and was observed muted by default
 - A `custom metrics / edit metrics / metrics picker` entry was **not found in the checked run**, but this is not a final exclusion because the live ended and the page jumped away during verification
 - Re-check metric customization during a stable ongoing live before concluding the feature does not exist
 
-## 10. Blocking conditions
+## 9. Blocking conditions
 
 Stop and report when you hit:
 - login expiry
