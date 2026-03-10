@@ -36,6 +36,18 @@ skills/<site-name>/references/*.md
 - Move volatile UI details into `references/`
 - State when something is confirmed vs inferred vs draft
 - Prefer smallest-necessary references over giant dumps
+- Add a visible version block near the top of every `SKILL.md`
+
+Recommended format:
+
+```markdown
+## Version
+- Version: YYYY-MM-DD or vX.Y
+- Last verified: YYYY-MM-DD
+- Status: active / draft / needs-verification / deprecated
+```
+
+If a skill changes in a meaningful way, update the version/date block in the same commit.
 
 ## Pull requests
 

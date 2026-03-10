@@ -43,6 +43,8 @@ skills/
 - Clearly mark anything unverified as draft / needs verification
 - Include guardrails for destructive or high-risk surfaces
 - Keep one skill focused on one site or one closely related product surface
+- Every skill must include a visible version/date block near the top of `SKILL.md`
+- At minimum, record: `Version`, `Last verified`, and `Status`
 
 See `CONTRIBUTING.md` for contribution guidance.
 

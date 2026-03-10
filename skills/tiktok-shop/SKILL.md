@@ -5,6 +5,11 @@ description: Operate TikTok Shop seller center via browser. Use when user asks t
 
 # TikTok Shop Seller Center Operations
 
+## Version
+- Version: 2026-03-10
+- Last verified: 2026-03-10
+- Status: active
+
 ## Prerequisites
 
 - A browser profile logged into TikTok Shop seller center for each store
